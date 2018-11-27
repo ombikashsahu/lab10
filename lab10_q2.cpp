@@ -1,19 +1,19 @@
-//using function to find volume of rectangles using classes
+
 
 #include <iostream>
 using namespace std;
 
 class Box {
    public:
-      double length;         // Length of a box
-      double breadth;        // Breadth of a box
-      double height;         // Height of a box
+      double length;         // Length 
+      double breadth;        // Breadth 
+      double height;         // Height 
 
       // Member functions declaration
       double getVolume(void);
-      void setLength( double len );
+      void setLength( double leng);
       void setBreadth( double bre );
-      void setHeight( double hei );
+      void setHeight( double heit );
 };
 
 // Member functions definitions
@@ -21,13 +21,13 @@ double Box::getVolume(void) {
    return length * breadth * height;
 }
 
-void Box::setLength( double len ) {
+void Box::setLength( double leng ) {
    length = len;
 }
 void Box::setBreadth( double bre ) {
    breadth = bre;
 }
-void Box::setHeight( double hei ) {
+void Box::setHeight( double heit ) {
    height = hei;
 }
 
@@ -37,12 +37,12 @@ int main() {
    Box Box2;                // Declare Box2 of type Box
    double volume = 0.0;     // Store the volume of a box here
  
-   // box 1 specification
+   // box 1 
    Box1.setLength(6.0); 
    Box1.setBreadth(7.0); 
    Box1.setHeight(5.0);
 
-   // box 2 specification
+   // box 2 
    Box2.setLength(12.0); 
    Box2.setBreadth(13.0); 
    Box2.setHeight(10.0);

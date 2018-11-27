@@ -1,6 +1,4 @@
-//Create a class for rectangle that stores data of length and breadth and has two functions :
-//area() and perimeter(). Write a program that uses this class to create two rectangles (rectangle objects) of user inputted length and breadth.
-//Compare the areas and perimeter of the those rectangles.
+
 
 #include<iostream>
 using namespace std;
@@ -38,12 +36,12 @@ void Rectangle::setBreadth( double bre ) {
 
 // Main function for the program
 int main() {
-   Rectangle Rectangle1;                // Declare Rectangle1 of type Rectangle
-   Rectangle Rectangle2;                // Declare Rectangle2 of type Rectangle
-   double Area1 = 0.0;     // Store the area of a rectangle1 here
-   double Perimeter1 = 0.0;     // Store the perimeter of a rectangle1 here
-   double Area2 = 0.0;     // Store the area of a rectangle2 here
-   double Perimeter2 = 0.0;     // Store the perimeter of a rectangle2 here
+   Rectangle Rectangle1;                
+   Rectangle Rectangle2;                
+   double Area1 = 0.0;    
+   double Perimeter1 = 0.0;     
+   double Area2 = 0.0;     
+   double Perimeter2 = 0.0;     
    
    double len,bre;
    cout<<"enter length for rect1: ";
@@ -103,11 +101,11 @@ int main() {
     }
    else if(Perimeter1 < Perimeter2)
     {
-     cout<<"Perimeter of rectangle1 is less than the rectangle2"<<endl; 
+     cout<<"Perimeter of rectangle 1 is less than the rectangle2"<<endl; 
     }
    else
     {
-     cout<<"Perimeter of rectangle1 is more than the rectangle2"<<endl; 
+     cout<<"Perimeter of rectangle 1 is more than the rectangle2"<<endl; 
     }
 
 return 0;
